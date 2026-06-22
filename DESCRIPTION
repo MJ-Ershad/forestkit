@@ -20,25 +20,3 @@ Suggests:
     rms,
     splines
 RoxygenNote: 7.3.1
-Package: forestkit
-Type: Package
-Title: Publication-Quality Forest and Dose-Response Spline Figures
-Version: 0.1.0
-Authors@R: person("Mohamadjavad", "Ershadmanesh", role = c("aut", "cre"),
-                  email = "noreply@example.com")
-Description: Two figure helpers for meta-analysis output: pub_forest() draws a
-    forest plot with an optional pooled diamond, and dose_spline() fits and
-    plots a restricted cubic spline dose-response curve. Both write a 300-dpi
-    PNG plus a vector PDF, and both write the underlying numbers to CSV before
-    opening the graphics device so a render failure never loses the results.
-License: MIT + file LICENSE
-Encoding: UTF-8
-Imports:
-    grDevices,
-    graphics,
-    stats,
-    utils
-Suggests:
-    rms,
-    splines
-RoxygenNote: 7.3.1
