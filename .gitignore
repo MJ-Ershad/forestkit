@@ -1,8 +1,6 @@
 .Rproj.user
 .Rhistory
 .RData
-*.Rproj
-__pycache__/
-*.pyc
-.DS_Store
-outputs/
+demo_*.png
+demo_*.pdf
+demo_*.csv
